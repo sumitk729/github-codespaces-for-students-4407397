@@ -1,0 +1,13 @@
+/* This is the configuration file for your codespace itself, while the Dockerfile is 
+a lower-level configuration and should contain system-wide dependencies.
+
+*/
+
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "updateContentCommand": "npm install",
+    "postAttachCommand": "npm start",
+    "remoteUser": "node"
+}
